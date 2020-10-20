@@ -29,4 +29,6 @@ max = np.max(dates)
 min = np.min(dates)
 newDate = np.arange(min, max+1, 1, np.datetime64)
 print(newDate)
+#['2020-02-01' '2020-02-02' '2020-02-03' '2020-02-04' '2020-02-05'
+ '2020-02-06' '2020-02-07' '2020-02-08' '2020-02-09']
 ```
