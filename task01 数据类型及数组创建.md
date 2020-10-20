@@ -1,3 +1,9 @@
+## 如何区分一维、二维、多维？
+```{python}
+a = np.array(object) 
+print(a.ndim)
+```
+
 ## 以下表达式运行的结果分别是什么?
 ### (提示: NaN = not a number, inf = infinity)
 
