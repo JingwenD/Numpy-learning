@@ -1,5 +1,6 @@
-# 以下表达式运行的结果分别是什么?
-# (提示: NaN = not a number, inf = infinity)
+## 以下表达式运行的结果分别是什么?
+### (提示: NaN = not a number, inf = infinity)
+
 ```{python}
 0 * np.nan
 # nan
@@ -11,4 +12,9 @@ np.nan - np.nan
 # nan
 0.3 == 3 * 0.1
 # False
+```
+
+## 如何将numpy的datetime64对象转换为datetime的datetime对象？
+```{python}
+
 ```
