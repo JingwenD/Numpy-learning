@@ -1,5 +1,5 @@
-#以下表达式运行的结果分别是什么?
-#(提示: NaN = not a number, inf = infinity)
+# 以下表达式运行的结果分别是什么?
+# (提示: NaN = not a number, inf = infinity)
 ```{python}
 0 * np.nan
 # nan
