@@ -16,11 +16,17 @@ np.inf > np.nan
 # False
 np.nan - np.nan
 # nan
-0.3 == 3 * 0.1 # 3 * 0.1 = 0.30000000000000004
+0.3 == 3 * 0.1 
 # False
+# 3 * 0.1 = 0.30000000000000004
 ```
 
-## 如何将numpy的datetime64对象转换为datetime的datetime对象？
+## 给定一系列不连续的日期序列。填充缺失的日期，使其成为连续的日期序列。
 ```{python}
-
+import numpy as np
+dates = np.arange('2020-02-01', '2020-02-10', 2, np.datetime64)
+max = np.max(dates)
+min = np.min(dates)
+newDate = np.arange(min, max+1, 1, np.datetime64)
+print(newDate)
 ```
